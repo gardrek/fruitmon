@@ -9,3 +9,5 @@ edition = "2018"
 [dependencies]
 pixels = "0.0.2"
 winit = "0.19.5"
+serde = "1.0.103"
+image = "0.22.3"
