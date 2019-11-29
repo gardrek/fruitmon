@@ -96,7 +96,7 @@ impl World {
     fn new() -> Self {
         let player_image = draw::load_image("assets/testmon_back.png").unwrap();
         let enemy_image = draw::load_image("assets/testmon.png").unwrap();
-        let basic_font = draw::load_image("assets/test_font.png").unwrap();
+        let basic_font = draw::load_image("assets/tiles.png").unwrap();
         Self {
             box_x: 24,
             box_y: 16,
